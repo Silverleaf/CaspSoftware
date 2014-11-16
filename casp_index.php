@@ -29,6 +29,48 @@ body {
 	width: 100%;
 	height: 50%;
 }
+
+#whatwedo {
+	position: absolute;
+	margin:auto;
+	height: 31px;
+	width: 251px;
+	top: 0; left: 0; bottom: 0; right: 0;
+	padding: 20px;
+	transition-properties:background-color, border-radius;
+	transition-timing-function:linear;
+	transition-duration:0.5s;
+}
+
+#whatwedo:hover {
+	background-color:#D4FFEA;
+	border-radius:6px;
+}
+
+#contact_wrapper {
+	position:absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	height: 50%;
+}
+
+#contactus {
+	position: absolute;
+	margin:auto;
+	height: 31px;
+	width: 251px;
+	top: 0; left: 0; bottom: 0; right: 0;
+	padding: 20px;
+	transition-properties:background-color, border-radius;
+	transition-timing-function:linear;
+	transition-duration:0.5s;
+}
+
+#contactus:hover {
+	background-color:#D4FFEA;
+	border-radius:6px;
+}
 </style>
 
 <body>
@@ -38,7 +80,7 @@ body {
 </div>
 
 <div id="whatwedo_wrapper">
-	<img src-"whatwedo_nav@2x.png" alt="What We Do" id="whatwedo">
+	<img src="whatwedo_nav@2x.png" alt="What We Do" id="whatwedo">
 </div>
 
 <div id="contact_wrapper">
