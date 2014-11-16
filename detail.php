@@ -21,7 +21,7 @@ body {
 .dataInfo {
 	position: absolute;
 	width: 100%;
-	height: 85%;
+	height: 85;
 	top: 15%;
 	left: 0;
 	background-color: red;
@@ -29,7 +29,7 @@ body {
 </style>
 
 <body>
-
+ 
 	<div class="dataHeader">
 	</div>
 
