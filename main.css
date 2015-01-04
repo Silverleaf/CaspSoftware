@@ -1,12 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-
-<style>
 body {
 	margin:0;
+	height: 100%;
 	width:100%;
-	background-color:#CDD3D0;
+	background-size: cover;
+	background-image: url("mainBackground.png");
 }
 
 #logo_wrapper {
@@ -22,7 +19,7 @@ body {
 	margin:auto;
 }
 
-#whatwedo_wrapper {
+#whatWeDo_wrapper {
 	position:absolute;
 	top: 0;
 	left: 0;
@@ -30,7 +27,7 @@ body {
 	height: 50%;
 }
 
-#whatwedo {
+#whatWeDo {
 	position: absolute;
 	margin:auto;
 	height: 31px;
@@ -42,7 +39,7 @@ body {
 	transition-duration:0.5s;
 }
 
-#whatwedo:hover {
+#whatWeDo:hover {
 	background-color:#D4FFEA;
 	border-radius:6px;
 }
@@ -55,7 +52,7 @@ body {
 	height: 50%;
 }
 
-#contactus {
+#contactUs {
 	position: absolute;
 	margin:auto;
 	height: 31px;
@@ -67,26 +64,7 @@ body {
 	transition-duration:0.5s;
 }
 
-#contactus:hover {
+#contactUs:hover {
 	background-color:#D4FFEA;
 	border-radius:6px;
 }
-</style>
-
-<body>
-
-<div id="logo_wrapper">
-	<img src="casp_header@2x.png" id="header_label" alt="Header" width="574px" height="76px">
-</div>
-
-<div id="whatwedo_wrapper">
-	<img src="whatwedo_nav@2x.png" alt="What We Do" id="whatwedo">
-</div>
-
-<div id="contact_wrapper">
-	<img src="contact_nav@2x.png" alt="Contact Us" id="contactus">
-</div>
-</body>
-
-</head>
-</html>
